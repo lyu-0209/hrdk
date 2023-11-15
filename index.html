@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRDK 한국산업인력공단</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</head>
+
+<body>
+    <section class="section1">
+        <div class="swiper main-slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/bg_main_visual_pc01.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/bg_main_visual_pc02.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/bg_main_visual_pc04.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="main-slide-controller">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <div class="section1-wrap">
+            <nav class="header">
+                <ul class="navmenu">
+                    <li><a href="#">ENGLISH</a></li>
+                    <li> &middot; </li>
+                    <li><a href="#">온라인홍보센터</a></li>
+                    <li> &middot; </li>
+                    <li><a href="#">사이트맵</a></li>
+                    <li> &middot; </li>
+                    <li><a href="#">이용안내</a></li>
+                </ul>
+                <div class="logo">
+                    <img src="images/logo_white.png" alt="logo">
+                </div>
+            </nav>
+            <div class="main">
+                <h1>고객의 평생능력개발과<br>
+                    함께하는 HRDK</h1>
+                <P class="bannerp">변화하는 우리의 오늘, 도약하는 HRDK의 미래,<br>
+                    반짝반짝 능력개발 미래를 이어주는 꿈자리</P>
+
+                <!-- main-slide btn -->
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div> -->
+
+                <!-- search bar -->
+                <div class="search">
+                    <input type="text" id="search" placeholder="무엇을 찾으시나요?">
+                    <a href="#"><img src="images/icon_search_gray.png" alt="search"></a>
+                </div>
+                <ul class="box1ul">
+                    <li class="box1">
+                        <input type="radio" id="bmenu1" name="bmenu" checked>
+                        <label for="bmenu1">청년</label>
+                        <div class="smenu">
+                            <ul class="sub">
+                                <li><a href="#">해외 취업</a></li>
+                                <li><a href="#">국가직무능력표준<br>(NCS)</a></li>
+                                <li><a href="#">일학습병행</a></li>
+                                <li><a href="#">한국직업방송</a></li>
+                                <li><a href="#">HRD 컨퍼런스</a></li>
+                                <li class="event"><a href="#">국가자격시험<br>(Q-Net)</a></li>
+                                <li><a href="#">과정평가형 자격</a></li>
+                                <li class="event"><a href="#">예비숙련기술인<br>전수</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="box1">
+                        <input type="radio" id="bmenu2" name="bmenu">
+                        <label for="bmenu2">기업</label>
+                        <div class="smenu">
+                            <ul class="sub">
+                                <li><a href="#">국가직무능력표준<br>(NCS)</a></li>
+                                <li><a href="#">일학습병행</a></li>
+                                <li><a href="#">국가인적자원개발<br>컨소시엄</a></li>
+                                <li><a href="#">사업주<br>직업능력개발훈련</a></li>
+                                <li><a href="#">현장 맞춤형<br>체계적 훈련<br>(S-OJT)</a></li>
+                                <li><a href="#">인적자원개발<br>우수기관인증</a></li>
+                                <li class="event"><a href="#">외국인<br>근로자 고용관리<br>시스템(EPS)</a></li>
+                                <li class="event"><a href="#">숙련기술장려<br>모범사업체 선정</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="box1">
+                        <input type="radio" id="bmenu3" name="bmenu">
+                        <label for="bmenu3">근로자</label>
+                        <div class="smenu">
+                            <ul class="sub">
+                                <li><a href="#">사업주<br>직업능력개발훈련</a></li>
+                                <li><a href="#">능력개발<br>전문가 인력풀</a></li>
+                                <li><a href="#">대한민국<br>산업현장교수</a></li>
+                                <li class="event"><a href="#">국가자격시험<br>(Q-Net)</a></li>
+                                <li class="event"><a href="#">우수숙련기술자<br>선정</a></li>
+                                <li><a href="#">한국직업방송</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="box1">
+                        <input type="radio" id="bmenu4" name="bmenu">
+                        <label for="bmenu4">교육<br>훈련기관</label>
+                        <div class="smenu">
+                            <ul class="sub">
+                                <li><a href="#"><em>국가직무능력표준<br>(NCS)</em></a></li>
+                                <li><a href="#">국가인적자원개발<br>컨소시엄</a></li>
+                                <li><a href="#">지역산업 맞춤형<br>인력양성 사업</a></li>
+                                <li><a href="#">산업계 주도 청년<br>맞춤형 훈련 사업</a></li>
+                                <li><a href="#">훈련품질향상<br>모니터링</a></li>
+                                <li><a href="#">HRD 컨퍼런스</a></li>
+                                <li class="event"><a href="#">국가자격시험<br>(Q-Net)</a></li>
+                                <li><a href="#">과정평가형자격</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menubox">
+            <div class="menubox-content">
+                <ul class="menubox-ul">
+                    <li><a href="#">사업소개</a>
+                        <div class="menubox-inner-box">
+                            <ul class="menubox-inner clear">
+                                <li><a href="#">능력개발</a>
+                                    <ul>
+                                        <li><a href="#">사업소개</a></li>
+                                        <li><a href="#">직업능력개발훈련</a></li>
+                                        <li><a href="#">HRD 확산 인프라 지원</a></li>
+                                        <li><a href="#">자료실</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">외국인고용지원</a>
+                                    <ul>
+                                        <li><a href="#">사업소개</a></li>
+                                        <li><a href="#">사업주 지원</a></li>
+                                        <li><a href="#">외국인근로자지원</a></li>
+                                        <li><a href="#">자료실</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">국제교류협력</a>
+                                    <ul>
+                                        <li><a href="#">사업소개</a></li>
+                                        <li><a href="#">교류협력</a></li>
+                                        <li><a href="#">개발협력</a></li>
+                                        <li><a href="#">자료실</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">국가직무능력표준(NCS)</a>
+                                    <ul>
+                                        <li><a href="#">사업소개</a></li>
+                                        <li><a href="#">자료실</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">능력평가</a>
+                                    <ul>
+                                        <li><a href="#">사업소개</a></li>
+                                        <li><a href="#">국가기술자격시험</a></li>
+                                        <li><a href="#">국가전문자격시험</a></li>
+                                        <li><a href="#">과정평가형자격</a></li>
+                                        <li><a href="#">일학습병행 외부평가</a></li>
+                                        <li><a href="#">자료실</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">해외취업지원</a>
+                                    <ul>
+                                        <li><a href="#">사업소개</a></li>
+                                        <li><a href="#">지원/프로그램</a></li>
+                                        <li><a href="#">자료실</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">숙련기술</a>
+                                    <ul>
+                                        <li><a href="#">사업소개</a></li>
+                                        <li><a href="#">숙련기술진흥</a></li>
+                                        <li><a href="#">숙련기술전수</a></li>
+                                        <li><a href="#">기능경기대회</a></li>
+                                        <li><a href="#">자료실</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">사업 연구보고서</a>
+                                    <ul>
+                                        <li><a href="#">자료실</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li><a href="#">참여공간</a>
+                        <div class="menubox-inner-box">
+                            <ul class="menubox-inner">
+                                <li><a href="#">고객감동경영</a>
+                                    <ul>
+                                        <li><a href="#">고객헌장</a></li>
+                                        <li><a href="#">고객칭찬사례</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">고객의 소리</a>
+                                    <ul>
+                                        <li><a href="#">내가 쓴 민원</a></li>
+                                        <li><a href="#">민원 신청하기</a></li>
+                                        <li><a href="#">부패 공익신고</a></li>
+                                        <li><a href="#">시민e이사회</a></li>
+                                        <li><a href="#">내부규정</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">기업성장응답센터</a>
+                                    <ul>
+                                        <li><a href="#">기업성장응답센터</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li><a href="#">HRDK 소식 &middot; 홍보</a>
+                        <div class="menubox-inner-box">
+                            <ul class="menubox-inner">
+                                <li><a href="#">소식</a>
+                                    <ul>
+                                        <li><a href="#">공지사항</a></li>
+                                        <li><a href="#">인재채용</a></li>
+                                        <li><a href="#">제안서 평가결과</a></li>
+                                        <li><a href="#">해외연수출장</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">홍보</a>
+                                    <ul>
+                                        <li><a href="#">HRDK발자취</a></li>
+                                        <li><a href="#">HRDK홍보</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li><a href="#">HRDK ESG</a>
+                        <div class="menubox-inner-box">
+                            <ul class="menubox-inner">
+                                <li><a href="#">ESG 경영</a>
+                                    <ul>
+                                        <li><a href="#">ESG 경영</a></li>
+                                        <li><a href="#">ESG 뉴스</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">E(Environment)환경</a>
+                                    <ul>
+                                        <li><a href="#">E(Environment)환경</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">S(Social)사회</a>
+                                    <ul>
+                                        <li><a href="#">HRDK 사회공헌</a></li>
+                                        <li><a href="#">적극행정</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">G(Governance)지배구조</a>
+                                    <ul>
+                                        <li><a href="#">윤리인권</a></li>
+                                        <li><a href="#">패널마당</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">ESG 경영공시</a>
+                                    <ul>
+                                        <li><a href="#">ESG 경영공시</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li><a href="#">공단소개</a>
+                        <div class="menubox-inner-box">
+                            <ul class="menubox-inner">
+                                <li><a href="#">HRDK 소개</a>
+                                    <ul>
+                                        <li><a href="#">소개</a></li>
+                                        <li><a href="#">조직안내</a></li>
+                                        <li><a href="#">찾아오시는 길</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li><a href="#">지역본부 지사</a>
+                        <div class="menubox-inner-box">
+                            <ul class="menubox-inner">
+                                <li><a href="#">지역본부 지사</a>
+                                    <ul>
+                                        <li><a href="#">지역본부 지사</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li><a href="#">정보공개</a>
+                        <div class="menubox-inner-box">
+                            <ul class="menubox-inner">
+                                <li><a href="#">정보공개 안내</a>
+                                    <ul>
+                                        <li><a href="#">정보공개 제도</a></li>
+                                        <li><a href="#">처리절차 및 신청</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">사전정보공표</a>
+                                    <ul>
+                                        <li><a href="#">카테고리 별 분류</a></li>
+                                        <li><a href="#">자주 찾는 정보</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">공공데이터</a>
+                                    <ul>
+                                        <li><a href="#">소개</a></li>
+                                        <li><a href="#">개방 목록</a></li>
+                                        <li><a href="#">수요조사</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">사업실명제</a>
+                                    <ul>
+                                        <li><a href="#">자료실</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">경영공시</a>
+                                    <ul>
+                                        <li><a href="#">일반현황 및 기관운영</a></li>
+                                        <li><a href="#">주요사업 및 경영성과</a></li>
+                                        <li><a href="#">대내외평가</a></li>
+                                        <li><a href="#">정보공개</a></li>
+                                        <li><a href="#">기타정보</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">진위확인</a>
+                                    <ul>
+                                        <li><a href="#">진위확인서비스</a></li>
+                                    </ul>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="search-s">
+                            <div class="search-content">
+                                <div class="bbc"></div>
+                                <a href="#"></a>
+                                <input type="text" id="search2" name="search2" placeholder="검색어를 입력해 주세요.">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="button hamburger"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <div class="section2-wrap">
+            <div class="top clear">
+                <div class="notice">
+                    <h2>공지</h2>
+                    <a href="#">더보기</a>
+                    <div class="content">
+                        <div class="text">
+                            <p class="underline">2023 사업주직업능력개발훈련 우수사례 경진대회</p>
+                            <p class="day">2023-09-05</p>
+                        </div>
+                        <div class="text">
+                            <p class="underline">HRDK 가치체계홍보 이벤트 당첨자 명단 발표</p>
+                            <p class="day">2023-09-01</p>
+                        </div>
+                        <div class="text">
+                            <p class="underline">일학습병행 첨단산업 아카데미 운영기관 모집 공고</p>
+                            <p class="day">2023-08-31</p>
+                        </div>
+                        <div class="text">
+                            <p class="underline">2023 대한민국명장 등 우수숙련기술인 최종 선정</p>
+                            <p class="day">2023-08-30</p>
+                        </div>
+                        <div class="text">
+                            <p class="underline">2023 사업주직업훈련 하반기 운영계획(2차,3차) 안내</p>
+                            <p class="day">2023-08-23</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="alim">
+                    <h2>알림마당</h2>
+                    <div class="content">
+                        <div class="swiper alim-slide">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/img_temp_pc01.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc02.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc04.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc06.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc07.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc08.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc09.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc11.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc12.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc13.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc14.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc31.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc34.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc40.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc46.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc49.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc50.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc60.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc62.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc65.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc70.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc71.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc72.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc73.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img_temp_pc74.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="alim-slide-controller">
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="HRDKcontent">
+                <h3>HRDK 주요사업</h3>
+                <h1>어떤 <span class="txtblue">사업 정보</span>가 필요하세요?</h1>
+                <!-- Swiper -->
+                    <div class="swiper hrdk-slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/bg_business_pc01.png" alt="능력개발">
+                                <h3>능력개발</h3>
+                                <p>능력이 기회를 만드는 세상을 열다.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/bg_business_pc02.png" alt="능력평가">
+                                <h3>능력평가</h3>
+                                <p>적합한 능력평가 체계로<br>효율적 인재를 양성하다.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/bg_business_pc03.png" alt="외국인">
+                                <h3>외국인고용지원</h3>
+                                <p>중소기업 성장의 밑거름이자<br>인력난을 해소하다.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/bg_business_pc04.png" alt="국제교류협력">
+                                <h3>국제교류협력</h3>
+                                <p>인적자원개발을 선도하는<br>국제교류의 허브가 되다.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/bg_business_pc05.png" alt="해외취업지원">
+                                <h3>해외취업지원</h3>
+                                <p>해외노동시장 진출을 위한<br>글로벌 인재를 양성하다.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/bg_business_pc06.png" alt="숙련기술">
+                                <h3>숙련기술진흥</h3>
+                                <p>숙련된 기술로<br>산업경쟁력을 높이다.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/bg_business_pc07.png" alt="국가직무">
+                                <h3>국가직무능력표준</h3>
+                                <p>능력 중심을 위한 사회로의<br>이행, NCS를 개발하다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hrdk-slide-controller">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- <div class="swiper-pagination"></div> -->
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="section3">
+        <div class="section3-wrap">
+            <div class="s3w-left">
+                <h3>HRDK 홍보센터</h3>
+                <h1><span class="txtblue">HRDK</span> 소식을<br>당신께 전합니다.</h1>
+                <div class="sns">
+                    <button class="youtube"></button>
+                    <button class="insta"></button>
+                    <button class="facebook"></button>
+                    <a class="link"><span>HRDK 홍보센터 바로가기</span></a>
+                </div>
+                <iframe width="608" height="315" src="https://www.youtube.com/embed/bLVhHQYFCv4?si=ItJT1p4hDHOKdWlN"
+                    title="YouTube video player"></iframe>
+                <textarea name="text" id="text" cols="30" rows="10" readonly>우리는 무엇보다 사람을 먼저 생각합니다.
+우리의 책임은 학벌이 아닌 능력 중심의 사회를 만드는 것 입니다.
+청년의 열정과 근로자의 밝은 웃음으로 우리는 기업의 발전을 이끌어 갑니다.
+우리는 멈추지 않는 도전으로 대한민국의 꿈을 더 크게 그려 갑니다.
+글로벌 인적자원개발 파트너 우리는 한국산업인력공단 입니다.
+                                
+1982년 설립부터 한국산업인력공단은 대한민국 모든 국민들이 건강하고 행복한 삶을 누릴 수 있도록 사람 중심의 내일을 만들어 가고 있습니다.
+4차 산업혁명 시대를 선도하는 기술은 결국 사람에게서 시작됩니다.
+학벌이나 스펙이 아닌 능력이 뛰어난 전문 인재들이 미래를 이끌어 갈 것 입니다.
+                                    
+2013년 서울에서 울산으로 이전한 공단 본부와 2개의 부설기관 6개의 지역본부 26개지사 그리고 16개 해외 eps센터에서 1800여 명의 임직원들이 능력 중심 사회를 만들고 있습니다.
+                                    
+한국산업인력공단은 근로자의 직업능력개발, 국가자격시험, 해외취업, 숙련기술 장려, 국제 협력 사업 등을 통해 능력중심사회 구현을 선도하고 있습니다.
+                                    
+국가직무능력표준 NCS를 통해 능력으로 평가받을 수 있도록 일, 교육훈련, 자격을 연계해 현장전문가를 양성합니다.
+                                    
+산업현장에서 수행하는 직무 내용과 필요 능력을 체계화한 NCS를 통해 기업의 성장 가능성을 더 크게 확장하고 있습니다.
+                                    
+또한 자격종목 신설과 정비과정평가형, 자격 운영 등을 통해 자격의 품질을 높이며 국가자격 허브 기관의 역할을 수행하고 있습니다.
+                                    
+누구나 기회를 만날 수 있는 곳, 한국산업인력공단 입니다.
+                                    
+우리는 모두의 성장과 발전을 위해 끊임없이 나아갑니다.
+                                    
+매년 직업능력의 달 기념식, 인적자원 개발 컨퍼런스 등 작업능력의 달 행사를 개최하고, HRD콘텐츠를 개발, 보급하는 등 능력중심사회 구현에 앞장서고 있습니다.
+                                    
+한국산업인력공단은 근로자에게 양질의 훈련 과정을 제공해 직무 능력을 높이고 인적자원 개발 시스템을 구축해 기업의 인력난을 해소하고 있습니다.
+                                    
+청년 일자리 사업으로 일자리의 미스매치를 해소하고, 청년들이 스펙을 초월해 세계 무대를 성공적으로 진출할 수 있도록 적극 지원하고 있습니다.
+                                    
+또한 외국 인력의 선발에서 도입, 체류, 귀국까지 원스톱으로 지원해 기업과 외국인 근로자가 상생하는 선순환 시스템을 만들고 있습니다.
+                                    
+꿈을 키우며 경쟁력을 높여가는 곳, 한국산업인력공단 입니다.
+                                    
+우리는 숙련 기술의 성공을 지원합니다.
+                                    
+우수숙련기술을 선정하고 포상해 숙련기술을 장려하고 있습니다.
+또한 매녀 국내기능올림픽 대회를 개최하여 숙련기술인을 발굴, 육성하고 국제 기능 올림픽 대회에 참가해 기술강국 코리아의 위상을 높이고 있습니다.
+                                    
+한국산업인력공단은 글로벌 인적 자원 개발 허브로 도약하고 있습니다.
+                                    
+한국산업인력공단은 대한민국을 대표하는 인적자원개발 전문 공공기관으로서 세계적인 인적자원을 개발하며 더 큰 꿈을 이뤄나갈 것 입니다.
+                                    
+한국산업인력공단이 사람과 일터의 새로운 가치를 만들어갑니다.
+                                    
+우리는 모드 국민이 행복한 내일을 꿈꿉니다.
+우리는 능력 중심의 사회를 만들고 있습니다.
+우리는 기업의 지속적인 성장을 이끌어 갑니다.
+우리는 미래의 꿈을 응원합니다.
+우리는 오늘의 노력을 내일의 희망으로 만들고 있습니다.
+우리는 HRDK 한국산업인력공단 입니다.
+                                    
+K-HRD를 짓는 글로벌 인적자원개발 파트너 한국산업인력공단
+									
+                </textarea>
+            </div>
+            <div class="s3w-right">
+                <div class="s3w-r-header">
+                    <h3>HRDK 고객의 소리</h3>
+                    <h1>고객의 작은 의견에도<br>귀 기울이는 <span class="txtblue">HRDK</span></h1>
+                </div>
+                <div class="service">
+                    <div class="service-l">
+                        <div class="box">
+                            <div class="circle"></div>
+                            <div class="textbox">
+                                <p class="gogack">고객센터</p>
+                                <p class="num">1644-8000</p>
+                                <p>운영시간 평일 09:00~18:00</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="circle"></div>
+                            <div class="textbox">
+                                <p>산업인력공단<br>지역본부 및 지사 찾아보기</p>
+                                <p class="normal"><span class="txtblue">6개</span>지역본부 <span class="txtblue">26개</span>지사
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="circle"></div>
+                            <div class="textbox">
+                                <p class="txtblue font">HRDK ESG</p>
+                                <p>청렴의 가치 최우선 윤리 인권경영<br>선도기관</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-r">
+                        <div class="sbox">
+                            <img src="images/icon_cs_menu_pc01.png" alt="민원">
+                            <p>민원 신청하기</p>
+                        </div>
+                        <div class="sbox">
+                            <img src="images/icon_cs_menu_pc02.png" alt="질문">
+                            <p>자주하는 질문</p>
+                        </div>
+                        <div class="sbox">
+                            <img src="images/icon_cs_menu_pc03.png" alt="칭찬">
+                            <p>직원 칭찬하기</p>
+                        </div>
+                        <div class="sbox">
+                            <img src="images/icon_cs_menu_pc04.png" alt="제안">
+                            <p>고객 제안하기</p>
+                        </div>
+                        <div class="sbox">
+                            <img src="images/icon_cs_menu_pc05.png" alt="부패">
+                            <p>부패 &middot; 공익신고</p>
+                        </div>
+                        <div class="sbox">
+                            <img src="images/icon_cs_menu_pc06.png" alt="시민">
+                            <p>시민e이사회</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+        <div class="section4-wrap">
+            <img src="images/img_ci01.png" alt="01">
+            <img src="images/img_ci02.png" alt="02">
+            <img src="images/img_ci03.png" alt="03">
+            <img src="images/img_ci04.png" alt="04">
+            <img src="images/img_ci05.png" alt="05">
+            <img src="images/img_ci06.png" alt="06">
+            <img src="images/img_ci07.png" alt="07">
+            <img src="images/img_ci08.png" alt="08">
+            <img src="images/img_ci09.png" alt="09">
+            <img src="images/img_ci10.png" alt="10">
+            <img src="images/img_ci11.png" alt="11">
+            <img src="images/img_ci12.png" alt="12">
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-top">
+            <div class="inner">
+                <div class="text">
+                    <ul>
+                        <li><a href="#">개인정보 처리방침</a></li>
+                        <li><a href="#">저작권보호정책</a></li>
+                        <li><a href="#">찾아오시는 길</a></li>
+                        <li><a href="#">도로명주소안내</a></li>
+                    </ul>
+                    <div class="textsns">
+                        <button class="y"></button>
+                        <button class="i"></button>
+                        <button class="f"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="inner">
+                <div class="logo"><img src="images/logo.png" alt="로고이미지"></div>
+                <div class="pbox">
+                    <h3>주소</h3>
+                    <p>(우)44538 울산광역시 중구 종가로 345 한국산업인력공단</p>
+                    <p>Copyright©2021 All rights reserved. Human Resources Development Service of Korea
+                    </p>
+                    <br>
+                    <h3><span class="txtdblue">고객센터(유료)</span></h3>
+                    <h3><span class="txtblue bold">1644-8000</span></h3>
+                    <h3><span class="small">운영시간 평일 </span><span class="txtblue bold">09:00 - 18:00</span></h3>
+                </div>
+                <div class="site">
+                    <h3>유관기관 사이트<span class="col"></span><span class="row"></span></h3>
+                    <img src="images/foot_logo1.png" height="50" alt="청렴세상">
+                    <p>2022년도 종합 청렴도 평가결과</p>
+                    <ul>
+                        <li><a href="#"><img src="images/siteListSet_wa.png" height="50" alt="wa"></a></li>
+                        <li><a href="#"><img src="images/siteListSet_good.png" height="43" alt="good"></a></li>
+                        <li><a href="#"><img src="images/siteListSet_clean.png" height="48" alt="clean"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Initialize Swiper -->
+    <script>
+        new Swiper(".main-slide", {
+            pagination: {
+                el: ".main-slide-controller > .swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".main-slide-controller > .swiper-button-next",
+                prevEl: ".main-slide-controller > .swiper-button-prev",
+            },
+        });
+    </script>
+    <!-- swiper-button-disabled -->
+    <script>
+        new Swiper(".alim-slide", {
+            pagination: {
+                el: ".alim-slide-controller > .swiper-pagination",
+                type: "bullets",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".alim-slide-controller > .swiper-button-next",
+                prevEl: ".alim-slide-controller > .swiper-button-prev",
+            },
+            slidesPerView: 2,
+            moveSlides : 1,
+        });
+    </script>
+    <script>
+        new Swiper(".hrdk-slide", {
+            pagination: {
+                el: ".hrdk-slide-controller > .swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".hrdk-slide-controller > .swiper-button-next",
+                prevEl: ".hrdk-slide-controller > .swiper-button-prev",
+            },
+            slidesPerView: 4,
+            moveSlides : 1,
+        });
+    </script>
+</body>
+
+</html>
